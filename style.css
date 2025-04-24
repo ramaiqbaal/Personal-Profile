@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    margin-top: 40px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .bio {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .socials a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+  }
+  
+  .socials a:hover {
+    text-decoration: underline;
+  }
+  
+  .projects {
+    margin-top: 40px;
+  }
+  
+  .project-card {
+    background: #f9f9f9;
+    padding: 15px 20px;
+    border-left: 5px solid #007acc;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+  }
+  
+  .project-card a {
+    text-decoration: none;
+    color: #007acc;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
+  }
